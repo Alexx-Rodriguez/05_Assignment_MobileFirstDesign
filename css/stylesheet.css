@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: .5em;
+        background-color: #f2f2f2;
+    }
+    
+    .header, .footer {
+        background-color: #495159;
+        color: #f3f3f3;
+        text-align: center;
+        padding: .3rem;
+    }
+    
+    /*Nav Bar*/
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        background-color: #4C5B5C;
+        color: #f3f3f3;
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .content {
+        padding: .1rem;
+    }
+    
+    .main-content {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+        text-align: center;
+    }
+
+    main h2, aside h2 {
+        text-align: center;
+    }
+
+    .left-sidebar {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+    }
+
+    .right-sidebar {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+        text-align: right;
+    }
+    
+    .spotlight {
+        display: none;
+    }
+}
+
+@media(min-width: 601px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: .5em;
+        background-color: #f2f2f2;
+    }
+    
+    .header, .footer {
+        background-color: #495159;
+        color: #f3f3f3;
+        text-align: center;
+        padding: .3rem;
+    }
+    
+    /*Nav Bar*/
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        background-color: #4C5B5C;
+        color: #f3f3f3;
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .content {
+        padding: .1rem;
+    }
+
+    .clearfix {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .main-content {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+        text-align: center;
+    }
+
+    main h2, aside h2 {
+        text-align: center;
+    }
+
+    .left-sidebar {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+    }
+
+    .right-sidebar {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+        text-align: right;
+    }
+    
+    .spotlight {
+        display: none;
+    }
+}
+
+@media(min-width: 1024px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: .5em;
+        background-color: #f2f2f2;
+    }
+    
+    .header, .footer {
+        background-color: #495159;
+        color: #f3f3f3;
+        text-align: center;
+        padding: .3rem;
+    }
+    
+    /*Nav Bar*/
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        background-color: #4C5B5C;
+        color: #f3f3f3;
+        display: block;
+        padding: 1rem;
+        text-align: center;
+        border: 1px solid black;
+    }
+    
+    .content {
+        padding: .1rem;
+    }
+
+    .clearfix {
+        display: flex;
+        align-items: baseline;
+    }
+    
+    .main-content {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+        text-align: center;
+    }
+
+    main h2, aside h2 {
+        text-align: center;
+    }
+
+    .left-sidebar {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+    }
+
+    .right-sidebar {
+        background-color: #C8D5B9;
+        border: 1px solid black;
+        color: black;
+        text-align: right;
+    }
+    
+    .spotlight {
+        display: none;
+    }
+}
